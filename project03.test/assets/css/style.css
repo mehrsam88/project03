@@ -1,0 +1,50 @@
+@font-face {
+    font-family: yekan;
+    src: url('yekan-font/yekan-regular.eot');
+    src: url('yekan') format('FontName-opentype'),
+         url('font.woff') format('woff'),
+         url('yekan-font/yekan-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: yekan;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/************id*************/
+#i01{
+    width: 75px;
+    height: 50px;
+    text-align: right;
+}
+#tr01{
+    background-color:rgba(215, 202, 202, 0.781);
+    direction: rtl;
+    border: 10px solid rgba(215, 202, 202, 0.781);
+    font-size: large;
+    width: 90%;
+}
+#i03{
+    width: 100px;
+    height: 100px;
+}
+/***********class***********/
+.i01{
+    width: 200px;
+    padding-right: 50px;
+}
+.tr01{
+    
+    padding-right: 50px;
+}
+.p02{
+    text-align: right;
+    padding-right: 50px;
+    background-color: black; 
+    width: 97.33; 
+    height: 200px; 
+    color: white;
+}
